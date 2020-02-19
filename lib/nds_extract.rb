@@ -109,7 +109,7 @@ def movies_with_directors_set(source)
  while i < source.length do 
    dir_full = source[i]
    dir_name = dir_full[:name]
-   
+   dir_movies = 
    i+=1 
  end 
  new_array
