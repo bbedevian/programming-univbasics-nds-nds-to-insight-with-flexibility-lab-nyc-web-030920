@@ -107,10 +107,10 @@ def movies_with_directors_set(source)
  new_array = []
  i = 0 
  while i < source.length do 
-   dir_full = source[i]
-   dir_name = dir_full[:name]
-   dir_movies = dir_full[:movies]
-   new_array << movies_with_director_key()
+   dir_data = source[i]
+   dir_name = dir_data[:name]
+   dir_movies = dir_data[:movies]
+   new_array << movies_with_director_key(dir_name, dir_movies)
    i+=1 
  end 
  new_array
