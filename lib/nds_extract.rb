@@ -114,7 +114,7 @@ def movies_with_directors_set(source)
      inner_array << source[i][:movies][:title][x]
      x+=1
    end 
-   new_array[:director_name] = 
+   new_array[director_name] = director
    i+=1 
  end 
  new_array
