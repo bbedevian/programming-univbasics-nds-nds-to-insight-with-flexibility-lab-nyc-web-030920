@@ -107,8 +107,8 @@ def movies_with_directors_set(source)
  new_array = []
  i = 0 
  while i < source.length do 
-   
-   
+   dir_full = source[i]
+   dir_name = 
    i+=1 
  end 
  new_array
